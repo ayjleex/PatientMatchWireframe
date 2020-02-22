@@ -10,6 +10,10 @@ For the legacy Bootstrap 3 version of this theme, you can view the [last stable 
 
 ## Usage
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+Access the wireframe at: https://ayjleex.github.io/PatientMatchWireframe/
+
+To simulate running the search algorithm, go to thr "Run a search" box and click "Search!"
+To simulate viewing a patient entry, click on any entry in "Your Patients"
+To run a search from a patient entry, use the search in the sidebar "Select Options" section.
 
 
