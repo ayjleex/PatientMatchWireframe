@@ -437,6 +437,48 @@
             <!-- Content Column -->
             <div class="col-lg-6 mb-4">
 
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Medications</h6>
+                </div>
+                <div class="card-body">
+                  <div class="chart-bar">
+                    <canvas id="myMedChart"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Illustrations -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Run a search</h6>
+                </div>
+                <div class="card-body">
+                  <ul>
+                  <li>Patient name:</li>
+                  <input type="search" class="form-control form-control-sm" placeholder="" aria-controls="dataTable">
+                  <li><h6 class="collapse-header">Select which context:</h6></li>
+                    <select id="provider-context" class="custom-select">
+                          <option value="Param 1">Medicine Order</option>
+                          <option value="Param 1">Procedure Selection</option>
+                          <option value="Param 1">Demographic Comparison</option>
+                        </select>
+                  <li><h6 class="collapse-header">Select your parameters:</h6></li>
+                  <select id="comaprison-parameters" class="custom-select" multiple>
+                    <option value="Param 1">Param 1</option>
+                    <option value="Param 1">Param 2</option>
+                    <option value="Param 1">Param 3</option>
+                    <option value="Param 1">Param 4</option>
+                  </select>
+                </ul>
+                <a target="_blank" rel="nofollow" href="patientmatches.html">Search &rarr;</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 mb-4">
+
               <!-- Project Card Example -->
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
@@ -640,36 +682,6 @@
 
             </div>
 
-            <div class="col-lg-6 mb-4">
-
-              <!-- Illustrations -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Run a search</h6>
-                </div>
-                <div class="card-body">
-                  <ul>
-                  <li>Patient name:</li>
-                  <input type="search" class="form-control form-control-sm" placeholder="" aria-controls="dataTable">
-                  <li><h6 class="collapse-header">Select which context:</h6></li>
-                    <select id="provider-context" class="custom-select">
-                          <option value="Param 1">Medicine Order</option>
-                          <option value="Param 1">Procedure Selection</option>
-                          <option value="Param 1">Demographic Comparison</option>
-                        </select>
-                  <li><h6 class="collapse-header">Select your parameters:</h6></li>
-                  <select id="comaprison-parameters" class="custom-select" multiple>
-                    <option value="Param 1">Param 1</option>
-                    <option value="Param 1">Param 2</option>
-                    <option value="Param 1">Param 3</option>
-                    <option value="Param 1">Param 4</option>
-                  </select>
-                </ul>
-                <a target="_blank" rel="nofollow" href="patientmatches.html">Search &rarr;</a>
-                </div>
-              </div>
-
-            </div>
           </div>
 
         </div>
@@ -734,6 +746,8 @@
   <!-- Page level custom scripts -->
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
+  <script src="js/chart-bar-meds.js"></script>
+
 
   <!-- Alice's script for select multiple parameters -->
   <script src="js/select-multiple.js"></script>
