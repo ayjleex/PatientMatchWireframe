@@ -12,7 +12,7 @@ For the legacy Bootstrap 3 version of this theme, you can view the [last stable 
 
 Access the wireframe at: https://ayjleex.github.io/PatientMatchWireframe/
 
-To simulate running the search algorithm, go to thr "Run a search" box and click "Search!"
+To simulate running the search algorithm, scroll to the "Run a search" box and click "Search!"
 
 To simulate viewing a patient entry, click on any entry in "Your Patients"
 
